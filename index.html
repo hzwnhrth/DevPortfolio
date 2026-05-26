@@ -3,202 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Syed Hazwan Harith — Full-stack developer portfolio showcasing PHP and JavaScript projects.">
-    <title>Syed Hazwan Harith — Developer</title>
+    <meta name="description" content="Syed Hazwan Harith — Full-stack developer building things for the web.">
+    <title>Syed Hazwan Harith</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <nav class="nav">
-        <div class="nav-inner">
-            <a href="#" class="nav-brand"><span>&lt;</span>hazwan<span>/&gt;</span></a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+        <a href="#" class="nav-logo">SH</a>
+        <ul class="nav-links">
+            <li><a href="#about"><span class="nav-num">01.</span>About</a></li>
+            <li><a href="#work"><span class="nav-num">02.</span>Work</a></li>
+            <li><a href="#contact"><span class="nav-num">03.</span>Contact</a></li>
+            <li><a href="mailto:hzwnhrth31@gmail.com" class="nav-resume">Resume</a></li>
+        </ul>
     </nav>
 
-    <section class="hero section">
-        <div class="hero-content">
-            <div class="hero-tag"><span class="dot"></span> Available for internship</div>
-            <h1>Hi, I'm <span class="gradient">Syed Hazwan</span>.</h1>
-            <p>A full-stack developer who builds web applications with PHP and JavaScript. Focused on clean code, practical solutions, and continuous learning.</p>
-            <div class="hero-actions">
-                <a href="#projects" class="btn btn-primary">
-                    View Projects
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                </a>
-                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+    <div class="side-element side-left">
+        <a href="https://github.com/hzwnhrth" target="_blank" title="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+        <a href="mailto:hzwnhrth31@gmail.com" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></a>
+    </div>
+
+    <div class="side-element side-right">
+        <a href="mailto:hzwnhrth31@gmail.com" class="side-email">hzwnhrth31@gmail.com</a>
+    </div>
+
+    <div class="content">
+        <section class="hero">
+            <p class="hero-overline">Hi, my name is</p>
+            <h1>Syed Hazwan Harith.</h1>
+            <h2 class="hero-subtitle">I build things for the web.</h2>
+            <p>I'm a full-stack developer based in Malaysia specializing in building web applications with PHP and JavaScript. Currently focused on learning, building, and looking for an internship to grow my skills.</p>
+            <a href="#work" class="hero-cta">Check out my work</a>
+        </section>
+
+        <section class="section" id="about">
+            <h2 class="section-heading">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Hello! I'm Hazwan, a developer who enjoys building things that live on the internet. I got interested in web development when I first tried customizing a website template and realized how much goes into making things work behind the scenes.</p>
+                    <p>I work with PHP for server-side logic and JavaScript for creating interactive user interfaces. I focus on writing clean, readable code and building applications that solve real problems.</p>
+                    <p>Here are the technologies I've been working with:</p>
+                    <ul class="tech-list">
+                        <li>PHP 8+</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>HTML & CSS</li>
+                        <li>MySQL</li>
+                        <li>REST APIs</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="about-photo">
+                    <div class="about-photo-wrapper">
+                        <div class="about-photo-placeholder">SH</div>
+                    </div>
+                    <div class="about-photo-border"></div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="section" id="about">
-        <span class="section-label">About</span>
-        <h2 class="section-title">Background</h2>
-        <div class="about-grid">
-            <div class="about-text">
-                <p>I'm a developer based in Malaysia with a passion for building web applications that solve real problems. I work with PHP for backend services and JavaScript for interactive frontends.</p>
-                <p>I'm currently looking for an internship opportunity where I can contribute to a team, learn from experienced developers, and grow my skills in a professional environment.</p>
-                <p>Outside of coding, I enjoy exploring new technologies, reading technical blogs, and working on side projects to sharpen my abilities.</p>
-            </div>
-            <div class="about-stats">
-                <div class="stat-item">
-                    <div class="stat-num">5+</div>
-                    <div class="stat-label">Projects built</div>
+        <section class="section" id="work">
+            <h2 class="section-heading">Some Things I've Built</h2>
+
+            <div class="featured-project">
+                <div class="project-image">
+                    <div class="project-image-placeholder">BizDash Dashboard Preview</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-num">2</div>
-                    <div class="stat-label">Languages</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">3+</div>
-                    <div class="stat-label">Frameworks</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-num">1</div>
-                    <div class="stat-label">Year learning</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="skills">
-        <span class="section-label">Skills</span>
-        <h2 class="section-title">Technical Stack</h2>
-        <p class="section-desc">Technologies I work with and actively learning.</p>
-        <div class="skills-grid">
-            <div class="skill-card"><div class="skill-header"><span class="skill-name">PHP</span><span class="skill-level">80%</span></div><div class="skill-bar"><div class="skill-fill" data-level="80" style="width:0"></div></div></div>
-            <div class="skill-card"><div class="skill-header"><span class="skill-name">JavaScript</span><span class="skill-level">75%</span></div><div class="skill-bar"><div class="skill-fill" data-level="75" style="width:0"></div></div></div>
-            <div class="skill-card"><div class="skill-header"><span class="skill-name">HTML / CSS</span><span class="skill-level">90%</span></div><div class="skill-bar"><div class="skill-fill" data-level="90" style="width:0"></div></div></div>
-            <div class="skill-card"><div class="skill-header"><span class="skill-name">MySQL</span><span class="skill-level">65%</span></div><div class="skill-bar"><div class="skill-fill" data-level="65" style="width:0"></div></div></div>
-            <div class="skill-card"><div class="skill-header"><span class="skill-name">Git</span><span class="skill-level">70%</span></div><div class="skill-bar"><div class="skill-fill" data-level="70" style="width:0"></div></div></div>
-            <div class="skill-card"><div class="skill-header"><span class="skill-name">REST APIs</span><span class="skill-level">72%</span></div><div class="skill-bar"><div class="skill-fill" data-level="72" style="width:0"></div></div></div>
-        </div>
-    </section>
-
-    <section class="section" id="projects">
-        <span class="section-label">Work</span>
-        <h2 class="section-title">Projects</h2>
-        <p class="section-desc">A selection of projects I've built to practice and demonstrate my skills.</p>
-
-        <div class="project-filters">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="fullstack">Full Stack</button>
-            <button class="filter-btn" data-filter="frontend">Frontend</button>
-            <button class="filter-btn" data-filter="backend">Backend</button>
-        </div>
-
-        <div class="projects-grid">
-            <div class="project-card" data-category="fullstack">
-                <div class="project-top">
-                    <span class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></span>
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title"><a href="https://github.com/hzwnhrth/BizDash" target="_blank">BizDash</a></h3>
+                    <div class="project-desc">
+                        A business analytics dashboard that displays revenue metrics, sales charts rendered with the Canvas API, and an order tracking table. Data served through a PHP REST API.
+                    </div>
+                    <ul class="project-tech"><li>PHP</li><li>JavaScript</li><li>Canvas API</li><li>REST</li></ul>
                     <div class="project-links">
-                        <a href="https://github.com/hzwnhrth/BizDash" target="_blank" title="Source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+                        <a href="https://github.com/hzwnhrth/BizDash" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
                     </div>
                 </div>
-                <h3 class="project-name">BizDash</h3>
-                <p class="project-desc">Business analytics dashboard with revenue charts, KPI cards, and order management. PHP REST API with JSON storage.</p>
-                <div class="project-tech"><span class="tech-tag">PHP</span><span class="tech-tag">JavaScript</span><span class="tech-tag">Canvas API</span></div>
             </div>
 
-            <div class="project-card" data-category="fullstack">
-                <div class="project-top">
-                    <span class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+            <div class="featured-project">
+                <div class="project-image">
+                    <div class="project-image-placeholder">InvoiceForge App Preview</div>
+                </div>
+                <div class="project-content">
+                    <p class="project-overline">Featured Project</p>
+                    <h3 class="project-title"><a href="https://github.com/hzwnhrth/InvoiceForge" target="_blank">InvoiceForge</a></h3>
+                    <div class="project-desc">
+                        An invoice management system with full CRUD operations, line item calculations with tax, client tracking, and a status workflow from draft to paid. Built with a decoupled PHP API.
+                    </div>
+                    <ul class="project-tech"><li>PHP</li><li>JavaScript</li><li>REST API</li><li>JSON</li></ul>
                     <div class="project-links">
-                        <a href="https://github.com/hzwnhrth/InvoiceForge" target="_blank" title="Source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+                        <a href="https://github.com/hzwnhrth/InvoiceForge" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
                     </div>
                 </div>
-                <h3 class="project-name">InvoiceForge</h3>
-                <p class="project-desc">Invoice management system with client tracking, status workflow, and invoice preview. Full CRUD with PHP backend.</p>
-                <div class="project-tech"><span class="tech-tag">PHP</span><span class="tech-tag">JavaScript</span><span class="tech-tag">REST API</span></div>
             </div>
 
-            <div class="project-card" data-category="fullstack">
-                <div class="project-top">
-                    <span class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
-                    <div class="project-links">
-                        <a href="https://github.com/hzwnhrth/ChatSpark" target="_blank" title="Source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+            <h3 class="other-title">Other Noteworthy Projects</h3>
+            <p class="other-subtitle">view the archive</p>
+
+            <div class="other-projects">
+                <div class="other-card">
+                    <div class="other-card-top">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="other-card-links"><a href="https://github.com/hzwnhrth/TaskFlow" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a></div>
                     </div>
+                    <h3>TaskFlow</h3>
+                    <p>Task management app with priority levels, categories, search, and dark/light theme toggle. PHP REST API with JSON storage.</p>
+                    <div class="tech-row"><span>PHP</span><span>JavaScript</span><span>REST API</span></div>
                 </div>
-                <h3 class="project-name">ChatSpark</h3>
-                <p class="project-desc">Real-time chat application with channels, user presence, reactions, and typing indicators. PHP polling backend.</p>
-                <div class="project-tech"><span class="tech-tag">PHP</span><span class="tech-tag">JavaScript</span><span class="tech-tag">Polling</span></div>
-            </div>
 
-            <div class="project-card" data-category="frontend">
-                <div class="project-top">
-                    <span class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17.5 19H9a7 7 0 110-14 5 5 0 019.92 3.5H20a4 4 0 010 8h-2.5"/></svg></span>
-                    <div class="project-links">
-                        <a href="https://github.com/hzwnhrth/WeatherPulse" target="_blank" title="Source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+                <div class="other-card">
+                    <div class="other-card-top">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="other-card-links"><a href="https://github.com/hzwnhrth/WeatherPulse" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a></div>
                     </div>
+                    <h3>WeatherPulse</h3>
+                    <p>Weather dashboard with dynamic animated backgrounds, Canvas temperature charts, and 5-day forecast using PHP proxy API.</p>
+                    <div class="tech-row"><span>PHP</span><span>JavaScript</span><span>Canvas</span></div>
                 </div>
-                <h3 class="project-name">WeatherPulse</h3>
-                <p class="project-desc">Weather dashboard with animated backgrounds, temperature charts, and 5-day forecast. Canvas-rendered data visualization.</p>
-                <div class="project-tech"><span class="tech-tag">JavaScript</span><span class="tech-tag">Canvas</span><span class="tech-tag">PHP</span></div>
-            </div>
 
-            <div class="project-card" data-category="fullstack">
-                <div class="project-top">
-                    <span class="project-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></span>
-                    <div class="project-links">
-                        <a href="https://github.com/hzwnhrth/TaskFlow" target="_blank" title="Source"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+                <div class="other-card">
+                    <div class="other-card-top">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                        <div class="other-card-links"><a href="https://github.com/hzwnhrth/ChatSpark" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a></div>
                     </div>
-                </div>
-                <h3 class="project-name">TaskFlow</h3>
-                <p class="project-desc">Task management app with priority levels, categories, filtering, and dark/light theme. PHP REST API with full CRUD.</p>
-                <div class="project-tech"><span class="tech-tag">PHP</span><span class="tech-tag">JavaScript</span><span class="tech-tag">REST API</span></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section" id="contact">
-        <span class="section-label">Contact</span>
-        <h2 class="section-title">Get in Touch</h2>
-        <p class="section-desc">Interested in working together? Feel free to reach out.</p>
-
-        <div class="contact-grid">
-            <div class="contact-info">
-                <p>I'm currently looking for internship opportunities. If you have an opening or just want to connect, don't hesitate to drop a message.</p>
-                <div class="contact-links">
-                    <a href="mailto:hzwnhrth31@gmail.com" class="contact-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        hzwnhrth31@gmail.com
-                    </a>
-                    <a href="https://github.com/hzwnhrth" target="_blank" class="contact-link">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
-                        github.com/hzwnhrth
-                    </a>
+                    <h3>ChatSpark</h3>
+                    <p>Real-time chat application with channels, reactions, user presence, and typing indicators. PHP polling backend.</p>
+                    <div class="tech-row"><span>PHP</span><span>JavaScript</span><span>Polling</span></div>
                 </div>
             </div>
+        </section>
 
-            <form id="contact-form" autocomplete="off">
-                <div id="form-status" class="form-status"></div>
-                <div class="form-group">
-                    <label class="form-label" for="name">Name</label>
-                    <input class="form-input" type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label class="form-label" for="email">Email</label>
-                    <input class="form-input" type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label class="form-label" for="subject">Subject</label>
-                    <input class="form-input" type="text" id="subject" name="subject" required>
-                </div>
-                <div class="form-group">
-                    <label class="form-label" for="message">Message</label>
-                    <textarea class="form-textarea" id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
-            </form>
-        </div>
-    </section>
+        <section class="contact" id="contact">
+            <p class="contact-overline">What's Next?</p>
+            <h2>Get In Touch</h2>
+            <p>I'm currently looking for internship opportunities. Whether you have a question or just want to say hi, my inbox is always open and I'll do my best to get back to you.</p>
+            <a href="mailto:hzwnhrth31@gmail.com" class="contact-btn">Say Hello</a>
+        </section>
+    </div>
 
     <footer class="footer">
-        <p>Built by Syed Hazwan Harith &mdash; 2026</p>
+        <div class="footer-links">
+            <a href="https://github.com/hzwnhrth" target="_blank"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg></a>
+        </div>
+        <p>Built by Syed Hazwan Harith</p>
     </footer>
 
     <script src="assets/js/app.js"></script>
